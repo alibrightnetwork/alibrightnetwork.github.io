@@ -1,0 +1,106 @@
+body {
+    background-color:#55101090;
+    font-family: Georgia, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main_header{
+    background: linear-gradient(90deg, #ff5e57, #0056b3);;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+#Logo {
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+body > header > nav {
+    text-align: left;
+    color: white;
+}
+
+#subheadings{
+    text-decoration: underline;
+    color: gold;
+}
+
+nav {
+    color: white;
+}
+
+body > header > nav > ul > li > a{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+main > article{
+    background-color:grey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main > article > footer {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+body > main > article{
+    width: 70%;
+    margin: auto;
+}
+
+
+h2{
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+}
+
+form {
+    background-color: hotpink;
+    padding: 0%;
+    border-radius: 50px;
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+
+form > input[type="submit"] {
+    background-color: #28f519;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+body > footer{
+    background: linear-gradient(90deg, #0056b3, #ff5e57);
+}
